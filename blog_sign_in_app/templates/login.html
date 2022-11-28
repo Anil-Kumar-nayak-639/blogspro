@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block title %}Home{% endblock %}
+{% block content %}
+
+<div class="container" style="margin: top 15px;">
+    <div class="form-control">
+        <form action="" method="post">
+            {% csrf_token %}
+            {{form|crispy}}
+            <div style="margin-top:20px;">
+                
+                
+                    <button type="submit"><a href="{% url 'home' %}"></a>submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+{% endblock %}
