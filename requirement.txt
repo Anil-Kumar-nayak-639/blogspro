@@ -12,6 +12,7 @@ odfpy==1.4.1
 openpyxl==3.0.10
 Pillow==9.3.0
 protobuf==3.20.1
+python-decouple==3.6
 PyYAML==6.0
 sqlparse==0.4.3
 tablib==3.2.1
